@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Stifix",
+	"description": "Stifix Website",
+	"version": "0.1",
+	"icons": {
+		"128": "images/stifix-128x128.png"
+	},
+	"app": {
+		"urls": [
+			"http://stifix.com/"
+		],
+		"launch": {
+			"web_url": "http://stifix.com/"
+		}
+	},
+	"permissions": [
+		"unlimitedStorage",
+		"notifications"
+	]
+}
